@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Frontend Mentor | News homepage</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/hamburger.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header class="header">
+      <a class="header__logo" href="#">
+        <img src="./images/logo.svg" alt="News logo">
+      </a>
+
+      <button class="hamburger hamburger--spin" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+
+      <nav class="nav nav-mobile">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#new" class="nav__link">New</a>
+        <a href="#popular" class="nav__link">Popular</a>
+        <a href="#trending" class="nav__link">Trending</a>
+        <a href="#categories" class="nav__link">Categories</a>
+      </nav>
+
+      <nav class="nav nav-desktop">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#new" class="nav__link">New</a>
+        <a href="#popular" class="nav__link">Popular</a>
+        <a href="#trending" class="nav__link">Trending</a>
+        <a href="#categories" class="nav__link">Categories</a>
+      </nav>
+
+    </header>
+
+
+    <main class="main">
+
+      <div class="section-two">
+        <section class="futured">
+          <div class="futured__box">
+            <div class="futured__box-img"></div>
+            <h1 class="futured__box-title">The Bright Future of Web 3.0?</h1>
+            <p class="futured__box-text">We dive into the next evolution of the web that claims to put the power of the
+              platforms back into the
+              hands of the
+              people.
+              But is it really fulfilling its promise?</p>
+            <button class="futured__box-btn">Read more</button>
+          </div>
+
+        </section>
+
+        <section class="new">
+
+          <h2 class="new__title">New</h2>
+
+          <div class="new__boxes">
+
+            <div class="new__box new__box-border">
+              <a class="new__box-title" href="#">Hydrogen VS Electric Cars</a>
+              <p class="new__box-text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+
+            <div class="new__box new__box-border">
+              <a class="new__box-title" href="#">The Downsides of AI Artistry</a>
+              <p class="new__box-text">What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+
+            <div class="new__box">
+              <a class="new__box-title" href="#">Is VC Funding Drying Up?</a>
+              <p class="new__box-text">Private funding by VC firms is down 50% YOY. We take a look at what that means.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+      <section class="popular">
+
+        <div class="popular__box">
+          <img class="popular__box-img" src="./images/image-retro-pcs.jpg" alt="Retro PC">
+          <div class="popular__box-text">
+            <p class="popular__box-text--number">01</p>
+            <a class="popular__box-text--title" href="#">Reviving Retro PCs</a>
+            <p class="popular__box-text--text">What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+
+        <div class="popular__box">
+          <img class="popular__box-img" src="./images/image-top-laptops.jpg" alt="Laptop keybords">
+          <div class="popular__box-text">
+            <p class="popular__box-text--number">02</p>
+            <a class="popular__box-text--title" href="#">Top 10 Laptops of 2022</a>
+            <p class="popular__box-text--text">Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+
+        <div class="popular__box">
+          <img class="popular__box-img" src="./images/image-gaming-growth.jpg" alt="Console controller">
+          <div class="popular__box-text">
+            <p class="popular__box-text--number">03</p>
+            <a class="popular__box-text--title" href="#">The Growth of Gaming</a>
+            <p class="popular__box-text--text">How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

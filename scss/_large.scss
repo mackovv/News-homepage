@@ -1,0 +1,47 @@
+@media (min-width: 992px) {
+	// header
+	.header {
+		.nav {
+			&__link {
+				right: 0;
+				padding: 0 1.1em 0 2em;
+			}
+		}
+	}
+	
+	// main
+	.section-two {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: 1fr;
+		gap: 1em;
+
+		.futured {
+			grid-column: 1/4;
+			grid-row: 1/1;
+		}
+
+		.new {
+			grid-column: 4/5;
+			grid-row: 1/1;
+			margin: 0 0 0 0.4em;
+		}
+	}
+
+	.popular {
+		display: flex;
+		flex-direction: row;
+
+		&__box-text {
+			margin-right: 0.6em;
+		}
+	}
+}
+
+.futured {
+	&__box {
+		&-text {
+			margin-right: 1em;
+		}
+	}
+}
